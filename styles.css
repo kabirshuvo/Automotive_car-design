@@ -13,7 +13,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1000px;
+  width: 1040px;
   max-width: 100%;
 }
 
@@ -21,7 +21,7 @@ header {
   background-image: url(./img/car.jpg);
   background-size: cover;
   background-position: center center;
-  color: white;
+  color: rgb(228, 218, 218);
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 82px);
@@ -52,7 +52,7 @@ nav {
 
 nav .logo {
   font-size: 2rem;
-  color: #fff;
+  color: rgb(248, 239, 239);
 }
 
 nav ul {
@@ -62,7 +62,7 @@ nav ul {
 }
 
 nav li a {
-  color: white;
+  color: rgb(245, 235, 235);
   padding: 1.5rem;
   text-decoration: none;
 }
@@ -73,7 +73,7 @@ nav li a {
 
 .highlight {
   background-color: #00c2ff;
-  color: #fff;
+  color: rgb(248, 242, 242);
   padding: 0.7rem;
   border-radius: 2%;
   text-decoration: none;
@@ -82,7 +82,7 @@ nav li a {
 footer {
   height: 5%;
   background-color: #000;
-  color: #fff;
+  color: rgb(248, 237, 237);
   padding: 1rem;
   align-items: center;
 }
