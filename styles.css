@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Poppins&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  max-width: 100%;
+}
+
+header {
+  background-image: url(./img/car.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 82px);
+}
+
+.content {
+  font-size: 1.5rem;
+  margin: auto;
+  max-width: 100%;
+}
+
+.content h1 {
+  font-size: 4rem;
+  color: #00c2ff;
+  margin-bottom: 0;
+}
+
+.content p {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+nav .logo {
+  font-size: 2rem;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li a {
+  color: white;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: #00c2ff;
+  color: #fff;
+  padding: 0.7rem;
+  border-radius: 2%;
+  text-decoration: none;
+}
+
+footer {
+  height: 5%;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+footer strong {
+  color: #00c2ff;
+}
+
+@media screen and (max-width: 560px) {
+  .content {
+    display: flex;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 860px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav li {
+    background-color: #00c2ff;
+    padding: 2px;
+    border-radius: 3px;
+  }
+  nav li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  nav .highlight {
+    display: none;
+  }
+  footer ul {
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    min-width: 100%;
+  }
+  footer li {
+    margin: 1rem;
+    text-align: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
